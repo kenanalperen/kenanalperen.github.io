@@ -27,13 +27,15 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 
 **TU Delft | Delft, Turkiye**
 - Lab Intern at Haptic Interference Technology Lab (HITLab)
+  
 [HITLab](https://sites.google.com/view/hitlabdelft/team)
 
 ## Projects
 - Bilateral Teleoperation of a Multi Degree of Freedom Surgical Robot System with Parallel Kinematics
 
 - Mask R-CNN Application on Brain Tumor Images
- [Mask R-CNN](https://youtube.com/shorts/QHFpgSXV9Mw?si=tXMuLGR3RQFwzPjP)
+  
+[Mask R-CNN](https://youtube.com/shorts/QHFpgSXV9Mw?si=tXMuLGR3RQFwzPjP)
 
 - Machine Learning Methods on Sign Language
 
@@ -42,4 +44,5 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 - Low-Speed Diamond Wheel Saw
 
 - Snake Robot for Search and Rescue Missions
-  [Snake Robot](https://youtu.be/yErsOVa7HwM?si=g3KIZlAGGrZF70-3)
+
+[Snake Robot](https://youtu.be/yErsOVa7HwM?si=g3KIZlAGGrZF70-3)
