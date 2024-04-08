@@ -2,7 +2,7 @@
 
 Makes robots go brrr for a living
 
-Passionate about robotics, human-robot interaction, teleoperation, haptics, user-centred design, mechatronics, and control systems.
+Passionate about robotics, human-robot interaction, teleoperation, multi-robot control, haptics, user-centred design, mechatronics, and control systems.
 
 #### Technical Skills:
 Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
