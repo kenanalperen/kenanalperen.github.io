@@ -9,7 +9,7 @@
 
 - M.Sc., Mechatronics	Engineering | Sabanci University | Istanbul, Turkiye
 
-- B.Sc., Minor in Aerospace Engineering | Middle East Technical University | Ankara, Turkiye
+- Minor in Aerospace Engineering | Middle East Technical University | Ankara, Turkiye
 
 - B.Sc., Mechanical Engineering | Middle East Technical University | Ankara, Turkiye
 
