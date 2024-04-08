@@ -12,7 +12,7 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 
 - M.Sc., Erasmus Exchange | Technische Universiteit Delft | Delft, Netherlands
 
-- M.Sc., Mechatronics	Engineering | Sabanci University | Istanbul, Turkiye
+- M.Sc., Mechatronic	Engineering |  Sabanci University  | Istanbul, Turkiye
 
 - Minor in Aerospace Engineering | Middle East Technical University | Ankara, Turkiye
 
