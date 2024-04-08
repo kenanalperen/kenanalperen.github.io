@@ -5,7 +5,7 @@
 ## Education
 - Ph.D., Robotics | University of the West of England	| Bristol, UK
 
-- M.Sc., Erasmus Exchange | TU Delft | Delft, Netherlands
+- M.Sc., Erasmus Exchange | Technische Universiteit Delft | Delft, Netherlands
 
 - M.Sc., Mechatronics	Engineering | Sabanci University | Istanbul, Turkiye
 
@@ -25,16 +25,16 @@
 [HITLab](https://sites.google.com/view/hitlabdelft/team)
 
 ## Projects
-### Bilateral Teleoperation of a Multi Degree of Freedom Surgical Robot System with Parallel Kinematics
+# Bilateral Teleoperation of a Multi Degree of Freedom Surgical Robot System with Parallel Kinematics
 
-### Mask R-CNN Application on Brain Tumor Images
+# Mask R-CNN Application on Brain Tumor Images
 - [Mask R-CNN](https://youtube.com/shorts/QHFpgSXV9Mw?si=tXMuLGR3RQFwzPjP)
 
-## Machine Learning Methodson Sign Language
+# Machine Learning Methodson Sign Language
 
-## Responsive Aerial Fire Fighting Aircraft
+# Responsive Aerial Fire Fighting Aircraft
 
-## Low-Speed Diamond Wheel Saw
+# Low-Speed Diamond Wheel Saw
 
-## Snake Robot for Search and Rescue Missions
+# Snake Robot for Search and Rescue Missions
 - [Snake Robot](https://youtu.be/yErsOVa7HwM?si=g3KIZlAGGrZF70-3)
