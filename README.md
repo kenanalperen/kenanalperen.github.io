@@ -15,10 +15,10 @@
 
 ## Work Experience
 **Bristol Robotics Laboratory | England, UK**
-- Research Associate
+- Research Associate in Human-Robot Interaction
 
 **Sabanci University | Istanbul, Turkiye**
-- Research Assistant at Human Machine Interaction (HMI) Laboratory
+- Research Assistant at Human-Machine Interaction (HMI) Laboratory
 
 **TU Delft | Delft, Turkiye**
 - Lab Intern at Haptic Interference Technology Lab (HITLab)
