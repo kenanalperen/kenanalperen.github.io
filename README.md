@@ -10,11 +10,11 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 ## Education
 - Ph.D., Robotics | University of the West of England	| Bristol, UK
 
-- M.Sc., Erasmus Exchange | Technische Universiteit Delft | Delft, Netherlands
+- M.Sc., Erasmus Exchange |  Technische Universiteit Delft  | Delft, Netherlands
 
-- M.Sc., Mechatronic	Engineering |  Sabanci University  | Istanbul, Turkiye
+- M.Sc., Mechatronic	Engineering |  Sabanci University  |  Istanbul, Turkiye
 
-- Minor in Aerospace Engineering | Middle East Technical University | Ankara, Turkiye
+- Minor in Aerospace Engineering |Middle East Technical University | Ankara, Turkiye
 
 - B.Sc., Mechanical Engineering | Middle East Technical University | Ankara, Turkiye
 
