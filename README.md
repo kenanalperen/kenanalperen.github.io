@@ -12,9 +12,7 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 ## Education
 - Ph.D., Robotics | University of the West of England	| Bristol, UK
 
-- M.Sc., Erasmus Exchange |  Technische Universiteit Delft  | Delft, Netherlands
-
-- M.Sc., Mechatronic	Engineering |  Sabanci University  |  Istanbul, Turkiye
+- M.Sc. Erasmus Exchange |  Technische Universiteit Delft  | Delft, Netherlands
 
 - Minor in Aerospace Engineering |Middle East Technical University | Ankara, Turkiye
 
@@ -25,7 +23,7 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 - Research Associate in Human-Robot Interaction
 
 **Sabanci University | Istanbul, Turkiye**
-- Research Assistant at Human-Machine Interaction (HMI) Laboratory
+Graduate Researcher in Mechatronics | Research Assistant (HMI Laboratory) | Teaching Assistant (ME 408 & ENS 206)
 
 **TU Delft | Delft, Netherlands**
 - Lab Intern at Haptic Interference Technology Lab (HITLab)
