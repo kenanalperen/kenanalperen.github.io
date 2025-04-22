@@ -23,7 +23,9 @@ Python, C++, Linux, Git, ROS 2, Matlab, Simulink, SolidWorks, Siemens NX
 - Research Associate in Human-Robot Interaction
 
 **Sabanci University | Istanbul, Turkiye**
-- Graduate Researcher in Mechatronics | Research Assistant (HMI Laboratory) | Teaching Assistant (ME 408 & ENS 206)
+- Graduate Researcher in Mechatronics
+- Teaching Assistant (ME 408 & ENS 206)
+- Research Assistant (HMI Laboratory)
 
 **TU Delft | Delft, Netherlands**
 - Lab Intern at Haptic Interference Technology Lab (HITLab)
