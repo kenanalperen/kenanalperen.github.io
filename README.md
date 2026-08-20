@@ -1,8 +1,8 @@
 # Hi, I'm Alperen 👋
 
-### Robotics Engineer — Human-Robot Interaction · Teleoperation · Control
+### Robotics Engineer: Human-Robot Interaction · Teleoperation · Control
 
-Making robots and humans understand each other in real time — one feedback loop at a time.
+Making robots and humans understand each other in real time, one feedback loop at a time.
 
 [![Email](https://img.shields.io/badge/Email-Alperen.Kenan%40uwe.ac.uk-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Alperen.Kenan@uwe.ac.uk)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-alperen--kenan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/alperen-kenan)
@@ -12,9 +12,9 @@ Making robots and humans understand each other in real time — one feedback loo
 
 ## About Me
 
-I'm a final-year PhD candidate in Robotics Engineering at the **Bristol Robotics Laboratory**, University of the West of England, funded as a **Marie Skłodowska-Curie Actions Doctoral Fellow** within the RAICAM European Doctoral Network. My research sits at the intersection of **human-robot interaction, teleoperation, haptics, and control** — I design systems where a human operator and a robot are tightly coupled through real-time sensing, feedback, and control, and I validate them the way they'll actually be used: with real people, often in genuinely hazardous or safety-critical environments.
+I'm a final-year PhD candidate in Robotics Engineering at the **Bristol Robotics Laboratory**, University of the West of England, funded as a **Marie Skłodowska-Curie Actions Doctoral Fellow** within the [RAICAM](https://raicam.eu/) European Doctoral Network. My research sits at the intersection of **human-robot interaction, teleoperation, haptics, control, digital twins and interface design**. I design systems where a human operator and a robot are coupled through real-time sensing, feedback, and control, and I validate them the way they'll actually be used: with real people, often in genuinely hazardous or safety-critical environments.
 
-My thesis focuses on user-centred teleoperation interfaces for nuclear environments, covering both **touchscreen-based electrovibration tactile feedback** for remote swab sampling and **multi-operator, multi-robot coordination**. Alongside this, I work on robot learning from human demonstration, digital twins, and mechatronic system design more broadly.
+My thesis focuses on user-centred teleoperation interfaces for nuclear environments, covering both **touchscreen-based electrovibration tactile feedback** for remote swab sampling and **multi-operator, multi-robot coordination**. Alongside this, I work on robot learning from human demonstration, digital twins, and mechatronic system.
 
 **Research interests:** Robotics · Human-Robot Interaction · Teleoperation · Haptics · Interface Design · Digital Twins · Control Systems · Mechatronics
 
@@ -37,10 +37,9 @@ My thesis focuses on user-centred teleoperation interfaces for nuclear environme
 
 | Degree | Institution | Location | Dates |
 |---|---|---|---|
-| **PhD, Robotics Engineering** — *Marie Skłodowska-Curie Doctoral Fellow, Bristol Robotics Laboratory (Human-Robot Interaction Team)* | University of the West of England | Bristol, UK | Sep 2023 – Oct 2026 (expected) |
-| **M.Sc., Mechatronics Engineering** — *Graduate Researcher, exchange semester at TU Delft* | Sabancı University | Istanbul, Turkey | Sep 2021 – Aug 2023 |
+| **PhD, Robotics Engineering**: *Marie Skłodowska-Curie Doctoral Fellow, Bristol Robotics Laboratory (Human-Robot Interaction Team)* | University of the West of England | Bristol, UK | Sep 2023 – Oct 2026 (expected) |
 | **Graduate Exchange Student** | TU Delft | Delft, Netherlands | Aug 2022 – Feb 2023 |
-| **B.Sc., Mechanical Engineering** — *Minor in Aerospace Engineering* | Middle East Technical University | Ankara, Turkey | Sep 2016 – Feb 2022 |
+| **B.Sc., Mechanical Engineering**: *Minor in Aerospace Engineering* | Middle East Technical University | Ankara, Turkey | Sep 2016 – Feb 2022 |
 
 > PhD thesis: *"User-Centred Design of Robot Teleoperation Interfaces for Nuclear Environments: Swab Sampling and Multi-Operator Multi-Robot Systems"*
 
@@ -49,45 +48,45 @@ My thesis focuses on user-centred teleoperation interfaces for nuclear environme
 ## 💼 Experience
 
 **Academic & Research**
-- **Research Associate** — University of Bristol, UK · *Nov 2025 – Present*
-- **Research Associate** — University of the West of England, UK · *Sep 2023 – Present*
-- **Visiting Researcher** — ENSTA Paris (France) / TUM (Germany) / IIT (Italy) / RAICo1 (UK) · *Nov 2024 – May 2026*
-- **Lab Intern**, [HITLab](https://sites.google.com/view/hitlabdelft/team) — TU Delft Haptic Interface Technology Lab, Netherlands · *Sep 2022 – Feb 2023*
-- **Graduate Researcher** — Sabancı University, Turkey · *Sep 2021 – Aug 2023*
+- **Research Associate**: University of Bristol, UK · *Nov 2025 – Present*
+- **Research Associate**: University of the West of England, UK · *Sep 2023 – Present*
+- **Visiting Researcher**- ENSTA Paris (France) / TUM (Germany) / IIT (Italy) / RAICo1 (UK) · *Nov 2024 – May 2026*
+- **Lab Intern**, [HITLab](https://sites.google.com/view/hitlabdelft/team): TU Delft Haptic Interface Technology Lab, Netherlands · *Sep 2022 – Feb 2023*
+- **Graduate Researcher**- Sabancı University, Turkey · *Sep 2021 – Aug 2023*
   - Research Assistant, HMI Laboratory · Teaching Assistant, ME 408 & ENS 206
 
 **Industry & Earlier Research**
-- **Candidate Mechatronics Engineer** — TÜBİTAK SAGE, Turkey · *Mar – Sep 2021*
-- **R&D Summer Intern** — ASELSAN, Turkey · *Aug – Sep 2020*
-- **Manufacturing Intern** — Nurol Makina, Turkey · *Jul – Aug 2019*
+- **Candidate Mechatronics Engineer**: TÜBİTAK SAGE, Turkey · *Mar – Sep 2021*
+- **R&D Summer Intern**: ASELSAN, Turkey · *Aug – Sep 2020*
+- **Manufacturing Intern**: Nurol Makina, Turkey · *Jul – Aug 2019*
 
 ---
 
 ## 🏅 Fellowship
 
-**Marie Skłodowska-Curie Actions Doctoral Fellow** — RAICAM Doctoral Network, Horizon Europe · *2023 – 2026*
+**Marie Skłodowska-Curie Actions Doctoral Fellow**: [RAICAM](https://raicam.eu/) Doctoral Network, Horizon Europe · *2023 – 2026*
 *(Grant Agreement Nos. 101204088 / 101492360)*
 
 ---
 
 ## 👩‍🏫 Supervision, Outreach & Professional Development
 
-- **Lead Dissertation Supervisor**, 2 MSc students — Joint Master's Programme, University of Bristol & UWE · *2025 – Present*
-- **Demonstration Lead Chair**, IEEE Telepresence 2026 — York, UK · *2026*
-- **Special Session Committee Member**, Springer TAROS 2025 — Bristol, UK · *2025*
-- **Hackathon Participant**, European Robotics Hackathon (EnRicH) — Zwentendorf, Austria · *2025*
-- **Science Communicator**, "Science is Wonderful!" MSCA Science Fair — Brussels, Belgium · *2025*
-- **Student Member**, IET & IEEE · *2024 – Present*
-- **Teaching Assistant**, Mechatronic Systems Design — supported 40+ undergraduates across mechanical design, electronics, and control
+- **Lead Dissertation Supervisor**, 2 MSc students - Joint Master's Programme, University of Bristol & UWE · *2025 – Present*
+- **Demonstration Lead Chair**, IEEE Telepresence 2026 - York, UK · *2026*
+- **Special Session Committee Member**, Springer TAROS 2025 - Bristol, UK · *2025*
+- **Hackathon Participant**, European Robotics Hackathon ([EnRicH](https://enrich.european-robotics.eu/)) - Zwentendorf, Austria · *2025*
+- **Science Communicator**, "Science is Wonderful!" MSCA Science Fair - Brussels, Belgium · *2025*
+- **Student Member**, IET & IEEE · *2024 - Present*
+- **Teaching Assistant**, Mechatronic Systems Design - supported 40+ undergraduates across mechanical design, electronics, and control
 
 ---
 
 ## 🚀 PhD & Current Research Projects
 
-- **Touchscreen Teleoperation Interface with Electrovibration-Based Tactile Feedback** — for remote swab sampling in nuclear environments
-- **Multi-Operator, Multi-Robot Teleoperation Interface** — collaborative coordination in challenging environments
-- **Robot Learning from Human Demonstrations** — GMM/GMR-based trajectory learning, extending toward transformer and diffusion-based models, with human-likeness evaluation
-- **Surgical Teleoperation System** — bilateral control of a multi-DOF surgical robot with parallel kinematics and 6DOF tactile feedback
+- **Touchscreen Teleoperation Interface with Electrovibration-Based Tactile Feedback** -  for remote swab sampling in nuclear environments
+- **Multi-Operator, Multi-Robot Teleoperation Interface** - collaborative coordination in challenging environments
+- **Robot Learning from Human Demonstrations** - GMM/GMR-based trajectory learning, extending toward transformer and diffusion-based models, with human-likeness evaluation
+- **Surgical Teleoperation System** - bilateral control of a multi-DOF surgical robot with parallel kinematics and 6DOF tactile feedback
 
 ## 📁 Earlier Projects
 
