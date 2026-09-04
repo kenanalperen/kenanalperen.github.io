@@ -23,18 +23,90 @@
   <footer class="site-footer"><div class="container footer-inner"><span>© {{ 'now' | date: '%Y' }} Alperen Kenan</span><span>Robotics · HRI · Teleoperation · Haptics</span></div></footer>
   <script>
     document.querySelectorAll('.slideshow').forEach(function (show) {
-      const slides = Array.from(show.querySelectorAll('.slide'));
+      let slides = Array.from(show.querySelectorAll('.slide'));
       const dots = show.querySelector('.slide-dots');
       const prev = show.querySelector('.prev');
       const next = show.querySelector('.next');
       if (!slides.length || !dots || !prev || !next) return;
-      let index = 0, timer;
-      slides.forEach(function (_, i) { const dot = document.createElement('button'); dot.type = 'button'; dot.setAttribute('aria-label', 'Show image ' + (i + 1)); dot.addEventListener('click', function () { go(i); restart(); }); dots.appendChild(dot); });
-      const dotButtons = Array.from(dots.children);
-      function go(i) { index = (i + slides.length) % slides.length; slides.forEach(function (slide, n) { slide.classList.toggle('active', n === index); }); dotButtons.forEach(function (dot, n) { dot.classList.toggle('active', n === index); }); }
-      function restart() { clearInterval(timer); timer = setInterval(function () { go(index + 1); }, Number(show.dataset.interval || 6000)); }
-      prev.addEventListener('click', function () { go(index - 1); restart(); }); next.addEventListener('click', function () { go(index + 1); restart(); });
-      show.addEventListener('mouseenter', function () { clearInterval(timer); }); show.addEventListener('mouseleave', restart); go(0); restart();
+
+      // Use the new compressed JPG vertical gallery without requiring a large index.md rewrite.
+      slides.forEach(function (slide) {
+        const img = slide.querySelector('img');
+        if (!img) return;
+        const source = img.getAttribute('src') || '';
+        if (source.indexOf('/webpage_figures/Vertical/') !== -1) {
+          const base = source.split('/').pop().replace(/\.(png|jpe?g|webp)$/i, '');
+          img.src = source.replace(/\/webpage_figures\/Vertical\/[^/]+$/i, '/webpage_figures/Vertical_jpg_compressed/' + base + '.jpg');
+        }
+      });
+
+      let index = 0;
+      let timer;
+      let ready = false;
+
+      function rebuildDots() {
+        dots.innerHTML = '';
+        slides.forEach(function (_, i) {
+          const dot = document.createElement('button');
+          dot.type = 'button';
+          dot.setAttribute('aria-label', 'Show image ' + (i + 1));
+          dot.addEventListener('click', function () { go(i); restart(); });
+          dots.appendChild(dot);
+        });
+      }
+
+      function go(i) {
+        if (!slides.length) return;
+        index = (i + slides.length) % slides.length;
+        slides.forEach(function (slide, n) { slide.classList.toggle('active', n === index); });
+        Array.from(dots.children).forEach(function (dot, n) { dot.classList.toggle('active', n === index); });
+      }
+
+      function restart() {
+        clearInterval(timer);
+        if (slides.length > 1) {
+          timer = setInterval(function () { go(index + 1); }, Number(show.dataset.interval || 6000));
+        }
+      }
+
+      function removeBrokenSlide(slide) {
+        const removedIndex = slides.indexOf(slide);
+        if (removedIndex === -1) return;
+        slide.remove();
+        slides = slides.filter(function (item) { return item !== slide; });
+        rebuildDots();
+        if (!slides.length) {
+          clearInterval(timer);
+          show.classList.add('gallery-empty');
+          const message = document.createElement('p');
+          message.className = 'gallery-fallback';
+          message.textContent = 'Gallery images unavailable.';
+          show.appendChild(message);
+          return;
+        }
+        if (removedIndex < index || index >= slides.length) index = Math.max(0, index - 1);
+        go(index);
+        restart();
+      }
+
+      slides.forEach(function (slide) {
+        const img = slide.querySelector('img');
+        if (!img) {
+          removeBrokenSlide(slide);
+          return;
+        }
+        img.addEventListener('error', function () { removeBrokenSlide(slide); }, { once: true });
+      });
+
+      rebuildDots();
+      go(0);
+      restart();
+      ready = true;
+
+      prev.addEventListener('click', function () { if (slides.length) { go(index - 1); restart(); } });
+      next.addEventListener('click', function () { if (slides.length) { go(index + 1); restart(); } });
+      show.addEventListener('mouseenter', function () { clearInterval(timer); });
+      show.addEventListener('mouseleave', function () { if (ready) restart(); });
     });
   </script>
 </body>
