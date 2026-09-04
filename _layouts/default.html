@@ -22,92 +22,90 @@
   <main>{{ content }}</main>
   <footer class="site-footer"><div class="container footer-inner"><span>© {{ 'now' | date: '%Y' }} Alperen Kenan</span><span>Robotics · HRI · Teleoperation · Haptics</span></div></footer>
   <script>
-    document.querySelectorAll('.slideshow').forEach(function (show) {
-      let slides = Array.from(show.querySelectorAll('.slide'));
-      const dots = show.querySelector('.slide-dots');
-      const prev = show.querySelector('.prev');
-      const next = show.querySelector('.next');
-      if (!slides.length || !dots || !prev || !next) return;
+    (function () {
+      'use strict';
 
-      // Use the new compressed JPG vertical gallery without requiring a large index.md rewrite.
-      slides.forEach(function (slide) {
-        const img = slide.querySelector('img');
-        if (!img) return;
-        const source = img.getAttribute('src') || '';
-        if (source.indexOf('/webpage_figures/Vertical/') !== -1) {
-          const base = source.split('/').pop().replace(/\.(png|jpe?g|webp)$/i, '');
-          img.src = source.replace(/\/webpage_figures\/Vertical\/[^/]+$/i, '/webpage_figures/Vertical_jpg_compressed/' + base + '.jpg');
-        }
-      });
+      document.querySelectorAll('.slideshow').forEach(function (show) {
+        var slides = Array.prototype.slice.call(show.querySelectorAll('.slide'));
+        var dots = show.querySelector('.slide-dots');
+        var prev = show.querySelector('.prev');
+        var next = show.querySelector('.next');
+        if (!slides.length || !dots || !prev || !next) return;
 
-      let index = 0;
-      let timer;
-      let ready = false;
+        var index = 0;
+        var timer = null;
+        var interval = Number(show.dataset.interval) || 6000;
 
-      function rebuildDots() {
-        dots.innerHTML = '';
-        slides.forEach(function (_, i) {
-          const dot = document.createElement('button');
-          dot.type = 'button';
-          dot.setAttribute('aria-label', 'Show image ' + (i + 1));
-          dot.addEventListener('click', function () { go(i); restart(); });
-          dots.appendChild(dot);
+        // The vertical gallery uses the smaller JPG copies. Attach image handlers
+        // before changing any source so a failed image cannot remove its caption.
+        slides.forEach(function (slide) {
+          var img = slide.querySelector('img');
+          if (!img) return;
+
+          img.addEventListener('error', function () {
+            img.classList.add('image-unavailable');
+          });
+
+          var source = img.getAttribute('src') || '';
+          if (source.indexOf('/webpage_figures/Vertical/') !== -1) {
+            var filename = source.split('/').pop();
+            var base = filename.replace(/\.(png|jpe?g|webp)$/i, '');
+            img.src = '{{ "/webpage_figures/Vertical_jpg_compressed/" | relative_url }}' + base + '.jpg';
+          }
         });
-      }
 
-      function go(i) {
-        if (!slides.length) return;
-        index = (i + slides.length) % slides.length;
-        slides.forEach(function (slide, n) { slide.classList.toggle('active', n === index); });
-        Array.from(dots.children).forEach(function (dot, n) { dot.classList.toggle('active', n === index); });
-      }
-
-      function restart() {
-        clearInterval(timer);
-        if (slides.length > 1) {
-          timer = setInterval(function () { go(index + 1); }, Number(show.dataset.interval || 6000));
+        function renderDots() {
+          dots.replaceChildren();
+          slides.forEach(function (_, i) {
+            var dot = document.createElement('button');
+            dot.type = 'button';
+            dot.setAttribute('aria-label', 'Show image ' + (i + 1));
+            dot.addEventListener('click', function () {
+              showSlide(i);
+              restart();
+            });
+            dots.appendChild(dot);
+          });
         }
-      }
 
-      function removeBrokenSlide(slide) {
-        const removedIndex = slides.indexOf(slide);
-        if (removedIndex === -1) return;
-        slide.remove();
-        slides = slides.filter(function (item) { return item !== slide; });
-        rebuildDots();
-        if (!slides.length) {
-          clearInterval(timer);
-          show.classList.add('gallery-empty');
-          const message = document.createElement('p');
-          message.className = 'gallery-fallback';
-          message.textContent = 'Gallery images unavailable.';
-          show.appendChild(message);
-          return;
+        function showSlide(nextIndex) {
+          index = (nextIndex + slides.length) % slides.length;
+          slides.forEach(function (slide, i) {
+            slide.classList.toggle('active', i === index);
+          });
+          Array.prototype.forEach.call(dots.children, function (dot, i) {
+            dot.classList.toggle('active', i === index);
+          });
         }
-        if (removedIndex < index || index >= slides.length) index = Math.max(0, index - 1);
-        go(index);
+
+        function restart() {
+          if (timer) window.clearInterval(timer);
+          timer = slides.length > 1 ? window.setInterval(function () {
+            showSlide(index + 1);
+          }, interval) : null;
+        }
+
+        renderDots();
+        showSlide(0);
         restart();
-      }
 
-      slides.forEach(function (slide) {
-        const img = slide.querySelector('img');
-        if (!img) {
-          removeBrokenSlide(slide);
-          return;
-        }
-        img.addEventListener('error', function () { removeBrokenSlide(slide); }, { once: true });
+        prev.addEventListener('click', function () {
+          showSlide(index - 1);
+          restart();
+        });
+
+        next.addEventListener('click', function () {
+          showSlide(index + 1);
+          restart();
+        });
+
+        show.addEventListener('mouseenter', function () {
+          if (timer) window.clearInterval(timer);
+        });
+
+        show.addEventListener('mouseleave', restart);
       });
-
-      rebuildDots();
-      go(0);
-      restart();
-      ready = true;
-
-      prev.addEventListener('click', function () { if (slides.length) { go(index - 1); restart(); } });
-      next.addEventListener('click', function () { if (slides.length) { go(index + 1); restart(); } });
-      show.addEventListener('mouseenter', function () { clearInterval(timer); });
-      show.addEventListener('mouseleave', function () { if (ready) restart(); });
-    });
+    }());
   </script>
 </body>
 </html>
