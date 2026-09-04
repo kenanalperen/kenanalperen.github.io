@@ -36,24 +36,6 @@
         var timer = null;
         var interval = Number(show.dataset.interval) || 6000;
 
-        // The vertical gallery uses the smaller JPG copies. Attach image handlers
-        // before changing any source so a failed image cannot remove its caption.
-        slides.forEach(function (slide) {
-          var img = slide.querySelector('img');
-          if (!img) return;
-
-          img.addEventListener('error', function () {
-            img.classList.add('image-unavailable');
-          });
-
-          var source = img.getAttribute('src') || '';
-          if (source.indexOf('/webpage_figures/Vertical/') !== -1) {
-            var filename = source.split('/').pop();
-            var base = filename.replace(/\.(png|jpe?g|webp)$/i, '');
-            img.src = '{{ "/webpage_figures/Vertical_jpg_compressed/" | relative_url }}' + base + '.jpg';
-          }
-        });
-
         function renderDots() {
           dots.replaceChildren();
           slides.forEach(function (_, i) {
