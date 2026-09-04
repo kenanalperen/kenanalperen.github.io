@@ -13,62 +13,28 @@
 <body>
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="{{ '/' | relative_url }}">🤖 Alperen Kenan</a>
+      <a class="brand" href="{{ '/' | relative_url }}">Alperen Kenan</a>
       <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
-
-  <main>
-    {{ content }}
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© {{ 'now' | date: '%Y' }} Alperen Kenan</span>
-      <span>Robotics · HRI · Teleoperation · Haptics</span>
-    </div>
-  </footer>
+  <main>{{ content }}</main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© {{ 'now' | date: '%Y' }} Alperen Kenan</span><span>Robotics · HRI · Teleoperation · Haptics</span></div></footer>
   <script>
     document.querySelectorAll('.slideshow').forEach(function (show) {
       const slides = Array.from(show.querySelectorAll('.slide'));
       const dots = show.querySelector('.slide-dots');
       const prev = show.querySelector('.prev');
       const next = show.querySelector('.next');
-      if (!slides.length) return;
-      let index = 0;
-      let timer;
-
-      slides.forEach(function (_, i) {
-        const dot = document.createElement('button');
-        dot.type = 'button';
-        dot.setAttribute('aria-label', 'Show image ' + (i + 1));
-        dot.addEventListener('click', function () { go(i); });
-        dots.appendChild(dot);
-      });
+      if (!slides.length || !dots || !prev || !next) return;
+      let index = 0, timer;
+      slides.forEach(function (_, i) { const dot = document.createElement('button'); dot.type = 'button'; dot.setAttribute('aria-label', 'Show image ' + (i + 1)); dot.addEventListener('click', function () { go(i); restart(); }); dots.appendChild(dot); });
       const dotButtons = Array.from(dots.children);
-
-      function go(i) {
-        index = (i + slides.length) % slides.length;
-        slides.forEach(function (slide, n) { slide.classList.toggle('active', n === index); });
-        dotButtons.forEach(function (dot, n) { dot.classList.toggle('active', n === index); });
-      }
-      function restart() {
-        clearInterval(timer);
-        timer = setInterval(function () { go(index + 1); }, Number(show.dataset.interval || 6000));
-      }
-      prev.addEventListener('click', function () { go(index - 1); restart(); });
-      next.addEventListener('click', function () { go(index + 1); restart(); });
-      show.addEventListener('mouseenter', function () { clearInterval(timer); });
-      show.addEventListener('mouseleave', restart);
-      go(0);
-      restart();
+      function go(i) { index = (i + slides.length) % slides.length; slides.forEach(function (slide, n) { slide.classList.toggle('active', n === index); }); dotButtons.forEach(function (dot, n) { dot.classList.toggle('active', n === index); }); }
+      function restart() { clearInterval(timer); timer = setInterval(function () { go(index + 1); }, Number(show.dataset.interval || 6000)); }
+      prev.addEventListener('click', function () { go(index - 1); restart(); }); next.addEventListener('click', function () { go(index + 1); restart(); });
+      show.addEventListener('mouseenter', function () { clearInterval(timer); }); show.addEventListener('mouseleave', restart); go(0); restart();
     });
   </script>
 </body>
