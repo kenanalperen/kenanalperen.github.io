@@ -1,5 +1,5 @@
 title: Alperen Kenan
-logo: /unnecessary/profile.jpg
-description: Robotics Engineer · Human-Robot Interaction · Teleoperation · Haptics
+description: Robotics Engineer · Human–Robot Interaction · Teleoperation · Haptics
 show_downloads: false
-theme: jekyll-theme-minimal
+markdown: kramdown
+plugins: []
