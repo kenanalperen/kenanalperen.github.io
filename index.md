@@ -6,11 +6,11 @@ title: Alperen Kenan
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <div class="eyebrow">Robotics Engineer · Research Associate · PhD Candidate</div>
+      <div class="eyebrow">Robotics Engineer · PhD Candidate</div>
       <h1 class="hero-title"><span>Human-centred robotics</span><span>for real-world</span><span>environments.</span></h1>
       <p class="hero-location"><strong>Based in Bristol, UK</strong> · Bristol Robotics Laboratory</p>
-      <p class="lead">I work at the intersection of Robotics, Human–Robot Interaction, teleoperation, haptics, digital twins, robot learning and control to design interfaces that connect people, robots and complex environments.</p>
-      <p class="robot-line">🤖 Making robots go brrr for a living.</p>
+      <p class="lead">I work at the intersection of Robotics, Human-Robot Interaction, teleoperation, haptics, digital twins, robot learning and control to design interfaces that connect people, robots and complex environments.</p>
+      <p class="robot-line">Making robots go brrr for a living.</p>
       <div class="hero-links">
         <a class="button primary" href="#research">Explore research</a>
         <a class="button" href="#publications">Publications</a>
@@ -27,17 +27,17 @@ title: Alperen Kenan
   <div class="container">
     <div class="section-head">
       <h2>About</h2>
-      <p>Research driven by the following principles: design with people in mind, validate on real systems and environments, and make advanced robotics useful for humanity.</p>
+      <p>Research driven by the following principles: design with people in mind, validate on real systems and environments, and make advanced robotics useful.</p>
     </div>
     <div class="about-grid">
       <div class="card">
-        <p>I am a Robotics Engineer, Research Associate and a final year PhD Candidate working on human–robot interaction. My doctoral research at the Bristol Robotics Laboratory focuses on teleoperation interfaces for hazardous nuclear environments, including touchscreen electrovibration feedback, remote manipulation and multi-operator, multi-robot systems.</p>
+        <p>I am a Robotics Engineer and a final year PhD Candidate working on human-robot interaction. My doctoral research at the Bristol Robotics Laboratory focuses on teleoperation interfaces for hazardous nuclear environments, including touchscreen electrovibration feedback, remote manipulation and multi-operator, multi-robot systems.</p>
         <p>Alongside teleoperation, I investigate how robots can learn motion from human demonstrations and how generated behaviour can be evaluated for human-likeness.</p>
         <p>My preferred research cycle is:</p>
-        <p class="research-cycle"><strong>Analyse Requirements → Design → Build → Test with people → Validate on real robotic systems.</strong></p>
+        <p class="research-cycle"><strong>Analyse Requirements → Design → Build → Test with people → Validate on real systems.</strong></p>
       </div>
       <div class="card interests">
-        <span class="tag">Robotics</span><span class="tag">Human–Robot Interaction</span><span class="tag">Robot Teleoperation</span><span class="tag">Haptics</span><span class="tag">Robot Learning</span><span class="tag">Trajectory Learning</span><span class="tag">Control</span><span class="tag">Digital Twins</span><span class="tag">Interface Design</span><span class="tag">Mechatronics</span><span class="tag">Mechanical Engineering</span><span class="tag">Aerospace Engineering</span>
+        <span class="tag">Robotics</span><span class="tag">Human-Robot Interaction</span><span class="tag">Robot Teleoperation</span><span class="tag">Haptics</span><span class="tag">Robot Learning</span><span class="tag">Trajectory Learning</span><span class="tag">Control</span><span class="tag">Digital Twins</span><span class="tag">Interface Design</span><span class="tag">Mechatronics</span><span class="tag">Mechanical Engineering</span><span class="tag">Aerospace Engineering</span>
       </div>
     </div>
 
@@ -91,9 +91,9 @@ title: Alperen Kenan
 
 <section id="experience">
   <div class="container">
-    <div class="section-head"><h2>Education &amp; Experience</h2><p>Academic training and research roles across robotics, haptics and human–robot interaction.</p></div>
+    <div class="section-head"><h2>Education &amp; Experience</h2><p>Academic training and research roles across robotics, haptics and human-robot interaction.</p></div>
     <div class="card timeline">
-      <div class="timeline-item"><div class="timeline-date">2023–2026</div><div><h3>PhD in Robotics Engineering · UWE Bristol / Bristol Robotics Laboratory</h3><p>Marie Skłodowska-Curie Actions Doctoral Fellow within the RAICAM Horizon Europe Doctoral Network. Thesis: <em>User-Centred Design of Robot Teleoperation Interfaces for Nuclear Environments</em>.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2023–2026</div><div><h3>PhD in Robotics Engineering · UWE Bristol / Bristol Robotics Laboratory</h3><p>Marie Skłodowska-Curie Actions Doctoral Fellow within the RAICAM Horizon Europe Doctoral Network.</p><p><strong>Thesis Title:</strong> <em>User-Centred Design of Robot Teleoperation Interfaces for Nuclear Environments: Swab Sampling and Multi-Operator Multi-Robot Systems</em></p></div></div>
       <div class="timeline-item"><div class="timeline-date">2025–Present</div><div><h3>Research Associate · University of Bristol</h3><p>Research in human-centred robotics and teleoperation.</p></div></div>
       <div class="timeline-item"><div class="timeline-date">2023–Present</div><div><h3>Research Associate · University of the West of England</h3><p>Research in robot interfaces, haptics and hazardous-environment teleoperation.</p></div></div>
       <div class="timeline-item"><div class="timeline-date">2024–2026</div><div><h3>Visiting Researcher · ENSTA Paris / TUM / IIT / RAICo1</h3><p>International research secondments and collaborative robotics work.</p></div></div>
@@ -122,7 +122,7 @@ title: Alperen Kenan
     <div class="section-head subsection-head"><h2>Fellowship</h2></div>
     <div class="fellowship-banner card">
       <div class="fellowship-logos"><img src="{{ '/webpage_figures/Logos/Logo_RAICAM_Project.png' | relative_url }}" alt="RAICAM Project logo"><img src="{{ '/webpage_figures/Logos/Logo_Funded_by_the_European_Union.png' | relative_url }}" alt="Funded by the European Union"><img src="{{ '/webpage_figures/Logos/Logo_UKRI.png' | relative_url }}" alt="UKRI logo"></div>
-      <div><h3>Marie Skłodowska-Curie Actions Doctoral Fellow</h3><p><strong>RAICAM · Horizon Europe · 2023–2026</strong></p><p>Doctoral fellowship supporting research in robotics, artificial intelligence and human-centred systems across a European academic and industrial network.</p><a href="https://raicam.eu/">RAICAM project website →</a></div>
+      <div><h3>Marie Skłodowska-Curie Actions Doctoral Fellow RAICAM</h3><p><strong>Horizon Europe 2023–2026</strong></p><p>Doctoral fellowship supporting research in robotics, artificial intelligence and human-centred systems across a European academic and industrial network.</p><a href="https://raicam.eu/">RAICAM project website →</a></div>
     </div>
 
     <div class="section-head subsection-head"><h2>Technical Toolkit</h2></div>
@@ -132,36 +132,34 @@ title: Alperen Kenan
 
 <section id="gallery">
   <div class="container">
-    <div class="section-head"><h2>Research &amp; Fieldwork</h2><p>A visual snapshot of conferences, research visits, demonstrations and outreach.</p></div>
+    <div class="section-head"><h2>Research &amp; Fieldwork</h2><p>A visual snapshot of research visits, demonstrations, conferences, degrees, presentations and outreach.</p></div>
 
     <div class="slideshow-block">
-      <div class="slideshow-head"><h3>Vertical Gallery</h3><span>Research visits, demonstrations &amp; conferences</span></div>
       <div class="slideshow" data-interval="6000">
-        <button class="slide-control prev" aria-label="Previous vertical image">‹</button>
+        <button class="slide-control prev" aria-label="Previous image">‹</button>
         <div class="slides">
           <figure class="slide active"><img src="{{ '/webpage_figures/Vertical/Bristol_Robotics_Laboratory.png' | relative_url }}" alt="Bristol Robotics Laboratory"><figcaption>Bristol Robotics Laboratory</figcaption></figure>
-          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/METU_Aeropace_Engineering_Minor_Degree.jpg' | relative_url }}" alt="METU Aerospace Engineering Minor Degree"><figcaption>METU Aerospace Engineering</figcaption></figure>
-          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/TU_Delft_Graduate_Exchange.PNG' | relative_url }}" alt="TU Delft graduate exchange"><figcaption>TU Delft Graduate Exchange</figcaption></figure>
-          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/TUM_Secondment.png' | relative_url }}" alt="TUM secondment"><figcaption>TUM Research Secondment</figcaption></figure>
-          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/ENSTA_Secondment.png' | relative_url }}" alt="ENSTA Paris secondment"><figcaption>ENSTA Paris Research Secondment</figcaption></figure>
-          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/IIT_Secondment.png' | relative_url }}" alt="IIT secondment"><figcaption>IIT Research Secondment</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/ENRICH_2025_Robotics_Hackathon.jpeg' | relative_url }}" alt="European Robotics Hackathon 2025"><figcaption>European Robotics Hackathon 2025</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/ENRICH_control_rods.jpg' | relative_url }}" alt="EnRicH control rods activity"><figcaption>EnRicH · Control Rods</figcaption></figure>
+          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/ENSTA_Secondment.png' | relative_url }}" alt="ENSTA Paris secondment"><figcaption>ENSTA Paris Research Secondment</figcaption></figure>
+          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/IIT_Secondment.png' | relative_url }}" alt="IIT secondment"><figcaption>IIT Research Secondment</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/IROS_2025_China_Beijing.jpeg' | relative_url }}" alt="IROS 2025 Beijing"><figcaption>IROS 2025 · Beijing</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/IROS_2025_Great_Wall_of_China.jpeg' | relative_url }}" alt="Great Wall of China"><figcaption>IROS 2025 · Great Wall of China</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/IROS_2025_Poster_Presentation.jpeg' | relative_url }}" alt="IROS 2025 poster presentation"><figcaption>IROS 2025 · Poster Presentation</figcaption></figure>
+          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/METU_Aeropace_Engineering_Minor_Degree.jpg' | relative_url }}" alt="METU Aerospace Engineering Minor Degree"><figcaption>METU Aerospace Engineering</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/RAICo1_Secondment.png' | relative_url }}" alt="RAICo1 secondment"><figcaption>RAICo1 Research Secondment</figcaption></figure>
+          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/TUM_Secondment.png' | relative_url }}" alt="TUM secondment"><figcaption>TUM Research Secondment</figcaption></figure>
+          <figure class="slide"><img src="{{ '/webpage_figures/Vertical/TU_Delft_Graduate_Exchange.png' | relative_url }}" alt="TU Delft graduate exchange"><figcaption>TU Delft Graduate Exchange</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Vertical/UKAEA_RACE_Focus_Group.jpeg' | relative_url }}" alt="UKAEA RACE focus group"><figcaption>UKAEA RACE Focus Group</figcaption></figure>
         </div>
-        <button class="slide-control next" aria-label="Next vertical image">›</button>
-        <div class="slide-dots" aria-label="Vertical gallery navigation"></div>
+        <button class="slide-control next" aria-label="Next image">›</button>
+        <div class="slide-dots" aria-label="Gallery navigation"></div>
       </div>
     </div>
 
     <div class="slideshow-block horizontal-showcase">
-      <div class="slideshow-head"><h3>Horizontal Gallery</h3><span>Degrees, conferences, presentations &amp; outreach</span></div>
       <div class="slideshow slideshow-horizontal" data-interval="6500">
-        <button class="slide-control prev" aria-label="Previous horizontal image">‹</button>
+        <button class="slide-control prev" aria-label="Previous image">‹</button>
         <div class="slides">
           <figure class="slide active"><img src="{{ '/webpage_figures/Horizontal/METU_Mechanical_Engineering_Degree.jpeg' | relative_url }}" alt="METU Mechanical Engineering Degree"><figcaption>METU Mechanical Engineering</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Horizontal/IROS_2025_Conference_Venue.jpeg' | relative_url }}" alt="IROS 2025 conference venue"><figcaption>IROS 2025 · Conference Venue</figcaption></figure>
@@ -170,8 +168,8 @@ title: Alperen Kenan
           <figure class="slide"><img src="{{ '/webpage_figures/Horizontal/IROS_2025_Conference_Presentation.jpeg' | relative_url }}" alt="IROS 2025 conference presentation"><figcaption>IROS 2025 · Conference Presentation</figcaption></figure>
           <figure class="slide"><img src="{{ '/webpage_figures/Horizontal/TAROS_2025_Presentation.jpeg' | relative_url }}" alt="TAROS 2025 presentation"><figcaption>TAROS 2025 · Presentation</figcaption></figure>
         </div>
-        <button class="slide-control next" aria-label="Next horizontal image">›</button>
-        <div class="slide-dots" aria-label="Horizontal gallery navigation"></div>
+        <button class="slide-control next" aria-label="Next image">›</button>
+        <div class="slide-dots" aria-label="Gallery navigation"></div>
       </div>
     </div>
   </div>
@@ -179,7 +177,7 @@ title: Alperen Kenan
 
 <section id="contact" class="contact">
   <div class="container">
-    <div class="contact-box"><div><h2>Let’s work on better human–robot interaction.</h2><p>Interested in human-centred robotics, teleoperation, haptics or robot learning?</p></div><div class="hero-links"><a class="button" href="mailto:Alperen.Kenan@uwe.ac.uk">Email me</a><a class="button" href="https://github.com/kenanalperen">GitHub</a><a class="button" href="https://www.linkedin.com/in/alperen-kenan/">LinkedIn</a></div></div>
+    <div class="contact-box"><div><h2>Let’s work on better human-robot interaction.</h2><p>Interested in human-centred robotics, teleoperation, haptics or robot learning?</p></div><div class="hero-links"><a class="button" href="mailto:Alperen.Kenan@uwe.ac.uk">Email me</a><a class="button" href="https://github.com/kenanalperen">GitHub</a><a class="button" href="https://www.linkedin.com/in/alperen-kenan/">LinkedIn</a></div></div>
   </div>
 </section>
 
