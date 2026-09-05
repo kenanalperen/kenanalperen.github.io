@@ -9,7 +9,7 @@ title: Alperen Kenan
       <div class="eyebrow">Robotics Engineer · PhD Candidate</div>
       <h1 class="hero-title"><span>Human-centred</span><span>robotics for real</span><span>environments.</span></h1>
       <p class="hero-location"><strong>Based in Bristol, UK</strong> · Bristol Robotics Laboratory</p>
-      <p class="lead">I work at the intersection of Robotics, Human-Robot Interaction, teleoperation, haptics, digital twins, robot learning and control to design interfaces that connect people, robots and complex environments.</p>
+      <p class="lead">I work at the intersection of Robotics, Human-Robot Interaction, Teleoperation, Haptics, Digital Twins, Robot Learning and Control to design interfaces that connect people, robots and complex environments.</p>
       <p class="robot-line">🤖 Making robots go brrr for a living.</p>
       <div class="hero-links"><a class="button primary" href="#research">Explore research</a><a class="button" href="#publications">Publications</a><a class="button" href="mailto:Alperen.Kenan@uwe.ac.uk">Get in touch</a></div>
     </div>
