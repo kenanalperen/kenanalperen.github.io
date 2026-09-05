@@ -1,6 +1,6 @@
 # Alperen Kenan
 
-### Robotics Engineer · Human–Robot Interaction · Teleoperation · Haptics
+### Robotics Engineer · Human-Robot Interaction · Teleoperation · Haptics
 
 I build human-centred robotic systems that connect **people, robots and real-world environments** through sensing, feedback and control.
 
@@ -16,7 +16,7 @@ I build human-centred robotic systems that connect **people, robots and real-wor
 
 ## 👋 About Me
 
-I am a **Robotics Engineer and PhD Researcher** working at the intersection of **Human–Robot Interaction (HRI), teleoperation, haptics, robot learning and control**. My research focuses on closing the loop between human operators and robots through intuitive interfaces, real-time feedback and user-centred design.
+I am a **Robotics Engineer and PhD Researcher** working at the intersection of **Human-Robot Interaction (HRI), teleoperation, haptics, robot learning and control**. My research focuses on closing the loop between human operators and robots through intuitive interfaces, real-time feedback and user-centred design.
 
 My doctoral research at the **Bristol Robotics Laboratory** focuses on teleoperation interfaces for hazardous nuclear environments, including touchscreen-based electrovibration feedback, remote manipulation and multi-operator, multi-robot systems. Alongside this work, I investigate how robots can learn motion from human demonstrations and how learned behaviour can be evaluated for human-likeness.
 
