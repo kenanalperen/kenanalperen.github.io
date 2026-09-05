@@ -13,7 +13,7 @@ title: Alperen Kenan
       <p class="robot-line">🤖 Making robots go brrr for a living.</p>
       <div class="hero-links"><a class="button primary" href="#research">Explore research</a><a class="button" href="#publications">Publications</a><a class="button" href="mailto:Alperen.Kenan@uwe.ac.uk">Get in touch</a></div>
     </div>
-    <div class="profile-wrap"><img class="profile" src="{{ '/webpage_figures/Profile/profile_square_2.jpg' | relative_url }}" alt="Alperen Kenan"></div>
+    <div class="profile-wrap"><img class="profile" src="{{ '/webpage_figures/Profile/profile_square_3.jpg' | relative_url }}" alt="Alperen Kenan"></div>
   </div>
 </section>
 
